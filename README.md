@@ -1,6 +1,4 @@
 <h1>Project Setup </h1>
-
-<p>
     1. docker-compose up -d --build
     2. docker-compose exec app php artisan key:generate
     3. docker-compose exec app php artisan config:cache
@@ -14,4 +12,3 @@
     11. docker-compose exec app php artisan migrate:refresh --path=database/migrations/seed-versioning/2021_12_30_152028_create_book_data.php
     12. docker-compose exec app php artisan migrate:refresh --path=database/migrations/seed-versioning/2021_12_30_152034_create_librarian_data.php
     13. docker-compose exec app php artisan migrate:refresh --path=database/migrations/seed-versioning/2021_12_30_152039_create_readers_data.php
-</p>

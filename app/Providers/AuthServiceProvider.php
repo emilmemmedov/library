@@ -2,9 +2,7 @@
 
 namespace App\Providers;
 
-use App\Models\Librarian;
 use App\Models\User;
-use App\Policies\ModulePolicy;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
 use Illuminate\Support\Facades\Gate;
 
@@ -16,7 +14,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array<class-string, class-string>
      */
     protected $policies = [
-        Librarian::class => ModulePolicy::class
+        //
     ];
 
     /**
